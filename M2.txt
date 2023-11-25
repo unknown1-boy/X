@@ -1,5 +1,5 @@
 
-def M1():
+def M2():
         samsung_models = [
             "SM-P610|P610XXS3FWD2",
             "SM-T595|T595XXU4CVG4",
