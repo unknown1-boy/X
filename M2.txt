@@ -1,1 +1,20 @@
 
+def M1():
+        samsung_models = [
+            "SM-P610|P610XXS3FWD2",
+            "SM-T595|T595XXU4CVG4",
+            "SM-A107M|A107MUBS6CWD3",
+            "SM-A307GT|A307GTVJS5CWE2",
+            "SM-G991U|G991USQS8EWG1",
+            "SM-G985F|G985FXXSIHWGA",
+            "SM-N985F|N985FXXS7HWG1",
+            "SM-A515F|A515FXXU7HWF1",
+            "SM-A725F|A725FXXU6DWE3",
+            "SM-M315F|M315FXXU3CWA2",
+            "SM-F916U|F916USQS2JWE4",]
+        model_,build = random.choice(samsung_models).rsplit('|')
+        os_v = random.randint(59,299)
+        fbav = f"{os_v}.0.0.{random.randint(9,49)}.{random.randint(11,318)}"
+        ua = ('[FBAN/Orca-Android;FBAV/'+str(fbav)+';FBPN/com.facebook.orca;FBLC/en_US;FBBV/'+str(random.randint(1111111,7777777))+';FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/'+str(model_)+'/7.2.9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=810,height=1704};FB_FW/1;]')
+        return ua
+ 
