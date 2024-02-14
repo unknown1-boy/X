@@ -1,20 +1,3 @@
-
-def M2():
-        samsung_models = [
-            "SM-P610|P610XXS3FWD2",
-            "SM-T595|T595XXU4CVG4",
-            "SM-A107M|A107MUBS6CWD3",
-            "SM-A307GT|A307GTVJS5CWE2",
-            "SM-G991U|G991USQS8EWG1",
-            "SM-G985F|G985FXXSIHWGA",
-            "SM-N985F|N985FXXS7HWG1",
-            "SM-A515F|A515FXXU7HWF1",
-            "SM-A725F|A725FXXU6DWE3",
-            "SM-M315F|M315FXXU3CWA2",
-            "SM-F916U|F916USQS2JWE4",]
-        model_,build = random.choice(samsung_models).rsplit('|')
-        os_v = random.randint(59,299)
-        fbav = f"{os_v}.0.0.{random.randint(9,49)}.{random.randint(11,318)}"
-        ua = ('[FBAN/Orca-Android;FBAV/'+str(fbav)+';FBPN/com.facebook.orca;FBLC/en_US;FBBV/'+str(random.randint(1111111,7777777))+';FBCR/null;FBMF/samsung;FBBD/samsung;FBDV/'+str(model_)+'/7.2.9;FBCA/armeabi-v7a:armeabi;FBDM/{density=2.0,width=810,height=1704};FB_FW/1;]')
-        return ua
- 
+[FBAN/FB4A;FBAV/59.0.0.3272;FBBV/18421169[FBAN/Orca-Android;FBAV/247.0.0.30.84;FBPN/com.facebook.orca;FBBV/410140983;FBLC/en_US;FBCA/arm64-v8a:;FBCR/Ufone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X695;FBSV/11;FBDM/{density=2.0,width=720,height=1440};]
+[FBAN/FB4A;FBAV/51.0.0.2615;FBBV/62335772[FBAN/Orca-Android;FBAV/247.0.0.30.84;FBPN/com.facebook.orca;FBBV/410140983;FBLC/en_US;FBCA/arm64-v8a:;FBCR/Ufone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X695;FBSV/11;FBDM/{density=2.0,width=720,height=1440};]
+[FBAN/FB4A;FBAV/54.0.0.3795;FBBV/66205985[FBAN/Orca-Android;FBAV/247.0.0.30.84;FBPN/com.facebook.orca;FBBV/410140983;FBLC/en_US;FBCA/arm64-v8a:;FBCR/Ufone;FBMF/INFINIX MOBILITY LIMITED;FBBD/Infinix;FBDV/Infinix X695;FBSV/11;FBDM/{density=2.0,width=720,height=1440};]
